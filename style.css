@@ -1,0 +1,38 @@
+.calculator{
+    height: 400px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.container-calculator{
+    background-color: black;
+}
+.operating-system{
+    margin-top: 50px;
+}
+#calculation-field{
+    text-align: right;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.buttons-operating{
+    display: flex;
+}
+.buttons-operating button{
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.buttons-operating .operator{
+    background-color: grey;
+    width: 35px;
+}
+.buttons-operating .operator2{
+    background-color: orange;
+}
+.buttons-operating .num{
+    background-color:darkgrey;
+}
