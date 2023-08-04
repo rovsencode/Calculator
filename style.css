@@ -1,4 +1,14 @@
+body{
+    background-color: #212529;
+    font-family: -webkit-body;
+}
+.welcome-title{
+    color: white;
+    text-align: center;
+}
 .calculator{
+    position: relative;
+    left: 500px;
     height: 400px;
     width: 250px;
     display: flex;
